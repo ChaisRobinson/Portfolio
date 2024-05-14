@@ -1,4 +1,6 @@
 import React from "react";
+import faceImage from './face.jpg';
+
 
 const PortfolioComponent = () => {
   return (
@@ -7,7 +9,7 @@ const PortfolioComponent = () => {
       <h2 className="about-title">Chais Robinson</h2>
       <h2 className="about-title">Portfolio</h2>
       <div>
-        <img className="face" src=".\face.jpg" alt="Portfolio" />
+      <img className="face" src={faceImage} alt="Portfolio" />
         <p className="about-text">Software Engineer</p>
         <p className="about-text">Full-Stack Web Developer</p>
       </div>
